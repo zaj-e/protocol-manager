@@ -1,0 +1,12 @@
+# Review a claim or possible change
+
+1. Identify the actual question and relevant current practice, goal, constraints, and prior decision. Read current state and any relevant record. If this is a repeated claim and the earlier conclusion still applies, reuse it with its limits rather than automatically researching again.
+2. Determine whether the claim addresses a relevant need. An absent baseline is unknown, not evidence that the user needs the advertised product. Ask for only the context that could affect this decision; investigate independently where possible.
+3. Check basic plausibility and practical access early. Before a long product comparison, establish the shopping region, approximate budget when important, and whether viable options exist. If these are unknown, a preliminary evidence review is still possible; label purchasing conclusions unresolved.
+4. For substantive health recommendations, examine current primary research and relevant clinical guidance. Distinguish the claimed ingredient or mechanism from evidence for the actual formulation, dose, use, and desired outcome. Note uncertainty, harms relevant to the choice, and conflicts of interest. Favor meaningful outcomes over promotional surrogate claims.
+5. Compare with what the user already uses or does. Consider overlap, compatibility, reported experience, switching effort, total cost, ongoing burden, and the size of the expected incremental benefit. For practical product suggestions, verify formulation, retailer, price/currency, shipping where material, and stock/access dates. Do not call a global listing locally available without checking.
+6. Stop when more research is unlikely to change the practical conclusion. Do not pursue a comprehensive market survey or invented numerical ranking. Resolve material uncertainty or leave the conclusion explicitly conditional.
+7. Save a concise decision using `decisions/template.md`. A review's conclusion is keep current setup, consider change, or unresolved. State the condition for reconsideration. Recording a review does not change current use.
+8. Respond with the conclusion, the main reason relative to the baseline, practical options only if warranted, and any material uncertainty. Link the saved record. If the user also explicitly adopts a change, continue with the update workflow.
+
+An advertisement, ownership, or the assistant's enthusiasm is never evidence of adoption. A negative or uncertain review is still worth remembering if it prevents repeated investigation.
