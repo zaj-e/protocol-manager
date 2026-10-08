@@ -4,10 +4,12 @@ Store a dated Markdown record for each substantive review or current-state updat
 
 Keep reasons to retain a practice as well as reasons to change it. Record enough source information, practical context, and reconsideration conditions to reuse a conclusion without repeating the investigation.
 
-A review can recommend something without changing [the protocol](../state/protocol.md). Only the user's report, adoption, or reconfirmation updates practice state. Link updates from the relevant category card. Old decision records do not establish current use or continuous adherence; check the card's dated reports before relying on them.
+Evidence belongs to a tool/practice's specified objective and use context. One tool can have several separately supported, uncertain, or unsupported uses. Name the assessed outcome in every review and keep its sources and limitations tied to that outcome.
+
+A review can recommend something without changing reported use in [the protocol](../state/protocol.md). Only the user's report, adoption, or reconfirmation updates use status. Link state updates from the relevant category card's Latest state decision field; link research reviews separately under Evidence by objective. Research can refresh an evidence link without refreshing a use confirmation. Old decision records do not establish current use or continuous adherence; check the card's dated reports before relying on them.
 
 Read the actual relevant record before reusing its conclusion. Check its scope and reconsideration condition; reverify time-sensitive facts only when material. Never load all records by default.
 
-Preserve old records. When a decision changes, add a new record linking the prior one and mark the prior record as superseded by the new record. A mistaken record can receive a dated correction; do not silently rewrite what happened.
+Preserve old records. When a decision changes or is explicitly reassessed, add a new record linking the prior one and mark supersession for the particular objective/context reviewed. Preserve conclusions about other uses. A mistaken record can receive a dated correction; do not silently rewrite what happened.
 
 There are no personal decision records yet.

@@ -25,3 +25,7 @@ The assistant should absorb that burden and help assemble a protocol that makes 
 The user asked for an actual initialized repository, with assistant rules or workflows, an observable canonical state that the AI can update and the user can understand, and a clear record of the project's intent.
 
 The user also asked that the intent remain adaptable: future work should remember why this exists, while allowing experience to change its direction rather than treating the first iteration as an inflexible specification.
+
+## Recovered earlier proposal
+
+On 2026-10-08 the user supplied an [older proposal](earlier-proposal.md), described as roughly a year and five months old. Its multiple-purpose tools and objective-specific evidence sharpen the design. Preserve it as historical input; the current North Star determines present priorities, and the scientific examples in the older message remain unverified illustrations.

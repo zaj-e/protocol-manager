@@ -1,6 +1,6 @@
 # North Star
 
-Version: 2. Founded: 2026-10-07. Basis: the user's founding conversation and subsequent feedback.
+Version: 3. Founded: 2026-10-07. Basis: the user's founding conversation, subsequent feedback, and recovered earlier proposal.
 
 ## Purpose
 
@@ -18,10 +18,14 @@ Success is a suitable, sustainable protocol that is easy to understand and maint
 - Begin small. Grow through demonstrated needs rather than accumulating features.
 - Stay honest about reality: the assistant has dated reports, not live access to the user's behavior. Reconfirm relevant older information when a decision depends on it, with minimal check-in burden.
 - Make the protocol easy for the user to browse by category as it grows. Human readability is part of its value.
+- Support tools with multiple purposes. Tie each evidence conclusion to a specified objective/outcome and use context, rather than treating a product as globally validated.
+- Allow selected conclusions to be challenged and reassessed on demand as evidence and needs change. Keep the evidence review date separate from confirmation of actual use.
 
 ## Foundation commitments
 
 One assistant, a readable overview linking canonical category pages, two task workflows, and dated decision records. Review on request. Preserve context, reasoning, and the boundary between a suggestion and an adopted practice. Represent practice state as last reported status with confirmation dates; never assume continuous use from elapsed time.
+
+Practice cards can list several purposes and link evidence decisions by objective. Use the existing review workflow for selective knowledge updates; an explicit reassessment checks earlier reasoning rather than automatically trusting it. Markdown and scoped links express these relationships in the foundation; introduce a different storage system only when actual retrieval or consistency problems warrant it.
 
 The user's personal health goals, exact products, budget, and shopping options still need to be provided. Founding the project does not supply those facts.
 
@@ -53,3 +57,4 @@ This charter is editable. When experience or the user's instruction changes the 
 
 - 2026-10-07 — V1: establish the foundation from the user's stated research burden, practical constraints, preference differences, and request for an adaptable project.
 - 2026-10-07 — V2: address the user's concerns about drift from actual behavior and readability at scale. Make status confirmations explicit, reconfirm relevant older reports on demand, and replace the master practices table with category pages and short practice cards. Preserve the original purpose and avoid daily interviews or a separate database.
+- 2026-10-08 — V3: incorporate the [recovered earlier proposal](earlier-proposal.md). Explicitly support multiple purposes, objective-specific evidence, systematic reviews/meta-analyses as appropriate sources, and selective reassessment through the existing workflow. Preserve the current emphasis on decision support and practical fit; the earlier inventory framing does not override it.

@@ -3,7 +3,9 @@
 Date: YYYY-MM-DD.
 Kind: review | state update | context update.
 Related items: stable IDs, or none yet.
-Supersedes: link, or none.
+Objective/outcome assessed: explicit outcome(s), or not applicable for a pure state update.
+Use context: relevant population, formulation, regimen, duration, and comparator when material; distinguish known facts from assumptions.
+Supersedes: link and the objective/context being superseded, or none.
 
 ## Conclusion
 
@@ -11,16 +13,20 @@ Keep current setup | consider change | unresolved | recorded user change.
 
 State the practical recommendation or reported change in plain language.
 
+For a review, state the conclusion for the assessed objective. If multiple outcomes are reviewed, give a separate conclusion and its uncertainty for each; do not generalize one supported benefit to the whole product.
+
 ## Basis
 
 - Input: what the user supplied or asked; distinguish the external claim from fact.
 - Baseline: the relevant practice and goal, last status confirmation, dated frequency/amount when material, and what remains unknown about current or continuous use.
-- Evidence or user report: the basis for the conclusion and important uncertainty.
+- Evidence or user report: which specific outcome the evidence supports, important limitations, and whether it concerns the actual product, an ingredient, a related regimen, or a surrogate/mechanism. Distinguish direct support from inference and unknowns.
 - Practical fit: compatibility, incremental benefit, price, availability, effort, and preferences where relevant.
 
 ## Sources
 
 For research, list source titles, URLs, publication dates when available, access dates, and which claim each supports. For a purely user-reported update, identify the user report and date; no research source is required.
+
+For an evidence synthesis, note its relevance, quality, and search cutoff when available. Do not claim an exhaustive systematic review was performed unless it was actually performed. For a reassessment, link the prior record and explain what new information was checked and whether it changed the conclusion.
 
 ## State effect
 

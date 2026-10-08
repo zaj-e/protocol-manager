@@ -1,6 +1,6 @@
 # My life protocol
 
-Overview edited: 2026-10-07. This date does not confirm any practice.
+Overview edited: 2026-10-08. This date does not confirm any practice.
 
 Start here to navigate the protocol. This file owns shared goals and constraints; the linked category pages own the practice records. The baseline has not yet been recorded, which does not mean the user has no routine.
 
@@ -15,6 +15,14 @@ Start here to navigate the protocol. This file owns shared goals and constraints
 - [Nails](categories/nails.md) — nail care and treatments
 
 These are navigation categories, not a recommended routine. Add a category when actual use requires it. Keep each practice on exactly one category page; cross-link it from related areas rather than copying it.
+
+## Tools, purposes, and evidence
+
+A tool is a product, device, or other resource used within a practice. A practice can serve several objectives. Categories organize navigation; they do not limit what a tool can be used for.
+
+Keep the user's purposes on the practice card. Link research under Evidence by objective, with a separate dated review for the assessed outcome and use context. Support for one benefit does not validate every claim about the product. Keep the latest state-decision link separate from research links, so recording a refill or reconfirming use does not hide the evidence behind a choice.
+
+“Update knowledge” means reassessing selected evidence decisions on request. An evidence review date is independent of the date the user last confirmed using the tool.
 
 ## What the state can establish
 

@@ -20,6 +20,7 @@ You can edit the Markdown files yourself. User edits are authoritative; the assi
 | --- | --- |
 | [docs/north-star.md](docs/north-star.md) | Current product purpose, priorities, and path forward |
 | [docs/origin.md](docs/origin.md) | Original intent from the founding conversation |
+| [docs/earlier-proposal.md](docs/earlier-proposal.md) | Recovered historical proposal and its design implications |
 | [AGENTS.md](AGENTS.md) | Entry instructions and behavioral rules for the assistant |
 | [.agents/workflows/review.md](.agents/workflows/review.md) | Evaluate claims and possible changes |
 | [.agents/workflows/update.md](.agents/workflows/update.md) | Capture existing practices and update state |
@@ -33,6 +34,8 @@ You can edit the Markdown files yourself. User edits are authoritative; the assi
 ## Persistence and visibility
 
 The canonical protocol consists of `state/protocol.md` for shared context and its linked category pages for practices. Each practice appears in one category only. Decision records explain its history. A recommendation stays in a decision record until you adopt it. Unknown information remains explicitly unknown.
+
+A tool can serve several purposes. Reviews assess a specific outcome and use context, and cards link applicable evidence by objective. The latest state update is kept separate from those evidence links. Ask “update knowledge about this practice for this goal” to reassess selected conclusions with the existing review workflow; the review date does not confirm that you still use it.
 
 The repository is initialized on `main` with a foundation commit. Later edits can be inspected with `git diff`; save checkpoints with `git add` and `git commit` when useful. Assistant state updates do not require a commit to become canonical. The assistant reports modified paths and meaningful changes after each update.
 

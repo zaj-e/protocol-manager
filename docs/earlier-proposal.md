@@ -1,0 +1,20 @@
+# Recovered earlier proposal
+
+Supplied by the user on 2026-10-08. The user described the original chat as roughly a year and five months old; its exact original date was not supplied.
+
+This is historical design input. The [current North Star](north-star.md) remains editable and determines current scope. The older message's scientific comparisons are unverified examples of intended reasoning, not evidence conclusions or recommendations to adopt.
+
+## What it adds
+
+- A tool may have several purposes; validation belongs to its use for a specified objective/outcome and context, rather than to the product as a whole.
+- Different purposes can have different evidence and competing alternatives. Keep those conclusions and their sources distinct.
+- Use relevant evidence syntheses and primary studies with attention to quality and applicability.
+- Make knowledge reassessment available on demand, preserving the earlier reasoning and recording whether a conclusion changed.
+
+Personalization, meaningful questions, practical shopping constraints, and navigable storage are already part of the foundation. The current conversation gives ordinary inventory tracking a lower priority than decision support. Category hierarchy and a different data store can grow from actual needs; this proposal does not require a vector database.
+
+## Original message
+
+The following preserves the text supplied by the user, including its original spelling:
+
+> I want to build an AI agent that managed a data store for me. It is for the things I purchase/own. I want to refer to these things as "tool", and each tool is aligned with a particular life objective. I imagine there might need to be different layers of categories and subcategories. For example, things that are essential, like shampoo. I want this agent to for example receive a shampoo product, and be able to analize it, see the ingredientes, what it does, what its meant to do. Validate across scientific evidence/meta analysis/sistematic reviews to validate that the product is really good at what it does and its not a flop, see how it compares to other things. Or I some day I hear someone selling "Hydroxyapatite toothpaste". I just throw it to the agent, it understand the objective/purpose of this tool. Compares it to, say, fluoride toothpaste, runs analysis and compares to studies to see what makes the most sense and where does science stand. I also understand that a lot of decisions have to be taylored into me in particular, which is why I also would expect the agent to know things about me over time, and also ask meaningful questions if they need something in particular for the current analysis they are making, like a little genie that investigates and manages things for me. I also imagine system must have certain characteristics, like for example a "tool" can  have multiple purposes or be used for many things. So the scientific proof is not of the "tool" itself, but scientific proof for how a "tool" is validated for each objective. For example, liquid caffeine studies do not demostrate that it prevents hair loss like finasteride does, so for that objective it might not be the ideal. but it is demostrated that it can have similar effects to minoxidil for maximizing hair follicle activity, so for that it might compete, i hope you can understand what I mean. Also, the thing is that all of these needs to be stored in a certain structure I imagine, where things are organized and being able to easily be read and fetched. I imagine It would be some sort of virtual map/collection where tools are organized. And tools_purpose relationship needs to be aligned with studies to back it up. It might even have a future feature like "update knowledge" that can be selected sporadically and have question its own beliefs as new studies rolll out. I feel like this would be so helpful for shopping, making budgets, align objectives. I just don't know what that data store should Ideally look like, a json file, a relational database, etc, i have no idea. I really would appreciate some concreteness because I feel its all floating around but I cannot materialize it into something actionable.
