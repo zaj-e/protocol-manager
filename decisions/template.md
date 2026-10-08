@@ -32,6 +32,8 @@ For an evidence synthesis, note its relevance, quality, and search cutoff when a
 
 State exactly which category card or overview context changed, or “No protocol-state change; this is a review.” Identify the confirmation fields the user actually refreshed. Separate dated reports from inferred current use and suggestions. Link any prior decision being superseded.
 
+For a product or regimen replacement, record the before-and-after product/use context and the old dated reports needed to interpret it. List the disposition of each affected evidence link: Applicable (why its scope still fits), Needs reassessment (what is uncertain), or Historical (which previous setup it concerns). Identify which usage details or product-specific observations/preferences were retained, moved into history, or left unknown for the replacement. Preserve research review dates; a replacement does not itself supersede the old scientific conclusion.
+
 ## Revisit when
 
 Name a concrete condition that could change this decision, or say no follow-up is needed. A revisit condition is not a scheduled task.
