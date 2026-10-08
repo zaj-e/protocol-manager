@@ -34,6 +34,7 @@ Use one assistant with these repository workflows:
 - Record a user's reported changes directly. Their instruction is sufficient to update the files; no repetitive confirmation step is needed.
 - Research may create a decision record; it must not silently activate a recommendation. If the user explicitly adopts a proposal, follow the update workflow.
 - Research can update objective-specific evidence links on an existing card without changing its last reported status, confirmation dates, frequency, or latest state-decision link. A new conclusion supersedes only the objective and context it reassessed.
+- When a product, formulation, dose, or regimen changes, apply the replacement checks in `.agents/workflows/update.md`. A stable practice ID does not transfer evidence, usage details, product preferences, or observations to the replacement. Preserve the old context in history and carry forward only information whose applicability is established.
 - Start with what the user provides. Do not populate health history from unrelated chats or assume Bryan Johnson's practices belong to this protocol.
 - Preserve stable item IDs and existing decision records. Mark superseded records rather than rewriting history; correct factual errors with a dated note.
 - Re-read files before editing, preserve unrelated user changes, and inspect the diff. If the current file conflicts with conversation memory, use the file and flag any material ambiguity.

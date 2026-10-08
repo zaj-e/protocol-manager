@@ -16,6 +16,8 @@ Copy the section below into one category page. Replace placeholders with user-pr
 
 Add links when this practice has actually been evaluated. For each objective, name the outcome and relevant use context, link the latest applicable review, and show its review date. For example, a fictional card might have separate entries for “cleaning” and “reducing irritation”; neither is a verdict on all possible benefits. Omit this section until there is a review. Keep conclusions and source detail in the linked decision record.
 
+After a product or regimen change, label retained links **Applicable**, **Needs reassessment**, or **Historical**, with the relevant context and a brief reason. Applicable means the review addresses this setup; its verdict may be favorable, negative, or uncertain. Other links do not establish a conclusion about this setup. Historical links can instead live in the linked state decision. Follow the [replacement checks](../workflows/update.md#product-or-regimen-replacement-checks); preserve review dates and the prior setup's facts in history.
+
 Add short optional paragraphs for user-reported observations, relevant clinician instructions, explicit start/stop dates, or a reported period of continuous use when useful. Do not manufacture these details. Record the source/report date for an observation. Missing history is unknown, not evidence of adherence or non-use.
 
 Give every practice a unique stable `P` ID across all categories. Keep stopped and paused cards with their history. Use ordinary headings so Markdown viewers provide navigation; add a short local jump list if a category becomes long. Cross-link the canonical card from other categories instead of copying its fields.
