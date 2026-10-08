@@ -2,6 +2,8 @@
 
 Recorded 2026-10-07 from the founding conversation. This preserves the starting point; [north-star.md](north-star.md) describes the current direction. The synthesis below is a paraphrase, except for the explicitly quoted excerpts.
 
+The [complete founding messages and early feedback](founding-messages.md) are preserved verbatim as source material. This summary supports quick orientation; consult the original wording when interpretation matters.
+
 ## The user’s starting point
 
 The user wants a personal life protocol spanning practices, tools, products, exercise, and care for areas such as hair, skin, and nails. Bryan Johnson's protocol illustrates the general idea, not a required set of interventions to copy.

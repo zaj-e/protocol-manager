@@ -2,6 +2,8 @@
 
 Version: 3. Founded: 2026-10-07. Basis: the user's founding conversation, subsequent feedback, and recovered earlier proposal.
 
+Source wording: [2026 founding messages and early feedback](founding-messages.md) and the [recovered earlier proposal](earlier-proposal.md). [origin.md](origin.md) provides a concise synthesis. These archives preserve what was said; the current charter describes the direction now.
+
 ## Purpose
 
 Reduce the time and mental effort required to decide what health and personal-care practices are worth maintaining or changing. Turn incoming products, advertisements, recommendations, and new evidence into decisions that fit the user's actual goals, existing setup, preferences, budget, and access.

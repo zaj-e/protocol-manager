@@ -20,6 +20,7 @@ You can edit the Markdown files yourself. User edits are authoritative; the assi
 | --- | --- |
 | [docs/north-star.md](docs/north-star.md) | Current product purpose, priorities, and path forward |
 | [docs/origin.md](docs/origin.md) | Original intent from the founding conversation |
+| [docs/founding-messages.md](docs/founding-messages.md) | Verbatim founding messages and early feedback from this chat |
 | [docs/earlier-proposal.md](docs/earlier-proposal.md) | Recovered historical proposal and its design implications |
 | [AGENTS.md](AGENTS.md) | Entry instructions and behavioral rules for the assistant |
 | [.agents/workflows/review.md](.agents/workflows/review.md) | Evaluate claims and possible changes |
