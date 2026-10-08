@@ -4,7 +4,7 @@ Store a dated Markdown record for each substantive review or current-state updat
 
 Keep reasons to retain a practice as well as reasons to change it. Record enough source information, practical context, and reconsideration conditions to reuse a conclusion without repeating the investigation.
 
-A review can recommend something without changing [the current protocol](../state/protocol.md). Only a user-reported or explicitly adopted change updates current use. Link adopted changes to the relevant item detail section.
+A review can recommend something without changing [the protocol](../state/protocol.md). Only the user's report, adoption, or reconfirmation updates practice state. Link updates from the relevant category card. Old decision records do not establish current use or continuous adherence; check the card's dated reports before relying on them.
 
 Read the actual relevant record before reusing its conclusion. Check its scope and reconsideration condition; reverify time-sensitive facts only when material. Never load all records by default.
 

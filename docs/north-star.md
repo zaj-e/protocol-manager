@@ -1,6 +1,6 @@
 # North Star
 
-Version: 1. Founded: 2026-10-07. Basis: the user's founding conversation.
+Version: 2. Founded: 2026-10-07. Basis: the user's founding conversation and subsequent feedback.
 
 ## Purpose
 
@@ -16,10 +16,12 @@ Success is a suitable, sustainable protocol that is easy to understand and maint
 - Evidence and personal needs can change. Preserve enough reasoning to reconsider a conclusion without starting over.
 - A theoretically better choice can be unsuitable because of price, availability, added effort, or a negligible advantage. Practical fit belongs inside the decision process.
 - Begin small. Grow through demonstrated needs rather than accumulating features.
+- Stay honest about reality: the assistant has dated reports, not live access to the user's behavior. Reconfirm relevant older information when a decision depends on it, with minimal check-in burden.
+- Make the protocol easy for the user to browse by category as it grows. Human readability is part of its value.
 
-## V1 commitments
+## Foundation commitments
 
-One assistant, one readable canonical protocol file, two task workflows, and dated decision records. Review on request. Preserve context, reasoning, and the boundary between a suggestion and an adopted practice.
+One assistant, a readable overview linking canonical category pages, two task workflows, and dated decision records. Review on request. Preserve context, reasoning, and the boundary between a suggestion and an adopted practice. Represent practice state as last reported status with confirmation dates; never assume continuous use from elapsed time.
 
 The user's personal health goals, exact products, budget, and shopping options still need to be provided. Founding the project does not supply those facts.
 
@@ -36,7 +38,7 @@ Judge early usefulness by whether the assistant saves investigation, explains it
 
 | Observed need | Possible response |
 | --- | --- |
-| The current file becomes difficult to navigate | Split by domain with an explicit canonical index |
+| A category becomes difficult to navigate | Split that category further while preserving one canonical home per practice |
 | Repeated edits cause format or consistency errors | Add validation or a small update tool |
 | Opening Markdown proves inconvenient | Generate a view from canonical state |
 | A specific unresolved question merits watching | Add narrowly scoped monitoring with a clear trigger |
@@ -50,3 +52,4 @@ This charter is editable. When experience or the user's instruction changes the 
 ### Revision history
 
 - 2026-10-07 — V1: establish the foundation from the user's stated research burden, practical constraints, preference differences, and request for an adaptable project.
+- 2026-10-07 — V2: address the user's concerns about drift from actual behavior and readability at scale. Make status confirmations explicit, reconfirm relevant older reports on demand, and replace the master practices table with category pages and short practice cards. Preserve the original purpose and avoid daily interviews or a separate database.

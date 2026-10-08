@@ -14,7 +14,7 @@ State the practical recommendation or reported change in plain language.
 ## Basis
 
 - Input: what the user supplied or asked; distinguish the external claim from fact.
-- Baseline: the relevant existing practice and goal, or what remains unknown.
+- Baseline: the relevant practice and goal, last status confirmation, dated frequency/amount when material, and what remains unknown about current or continuous use.
 - Evidence or user report: the basis for the conclusion and important uncertainty.
 - Practical fit: compatibility, incremental benefit, price, availability, effort, and preferences where relevant.
 
@@ -24,7 +24,7 @@ For research, list source titles, URLs, publication dates when available, access
 
 ## State effect
 
-State exactly what changed in `state/protocol.md`, or “No current-state change; this is a review.” Separate confirmed facts from suggestions. Link any prior decision being superseded.
+State exactly which category card or overview context changed, or “No protocol-state change; this is a review.” Identify the confirmation fields the user actually refreshed. Separate dated reports from inferred current use and suggestions. Link any prior decision being superseded.
 
 ## Revisit when
 

@@ -2,7 +2,7 @@
 
 ## Start every task
 
-Read `docs/north-star.md` and the latest `state/protocol.md`. Treat the latter as the only canonical current state. Read only relevant decision records and the workflow needed for the task. Read `docs/origin.md` when clarifying intent or considering a change in direction.
+Read `docs/north-star.md` and the latest `state/protocol.md`, then the relevant category pages it links to. The overview owns shared context and category navigation; each practice has exactly one canonical card on a category page. Read only relevant decision records and the workflow needed for the task. Read `docs/origin.md` when clarifying intent or considering a change in direction.
 
 Use one assistant with these repository workflows:
 
@@ -24,6 +24,11 @@ Use one assistant with these repository workflows:
 ## State and authorization
 
 - Never infer that discussed, recommended, bought, or owned means currently used. Never infer frequency, dose, benefit, goal, or adherence from ownership.
+- Treat practice state as a dated user report, not a live observation. `active` means active when last confirmed. Say “last reported active on DATE” when current use has not been established. Silence proves neither continued use nor stopping.
+- Never derive months of continuous use from a start date, elapsed time, or two separated confirmations. Only record a duration or continuity claim when the user explicitly reports it; preserve its scope and uncertainty.
+- Before relying on older state for a personalized comparison, response-to-treatment judgment, or compatibility decision, reconfirm the relevant status and any material dose/frequency. Months-old reports, changed needs, and conflicting context are reasons to ask. Even recent information may need clarification if the decision depends on an unconfirmed detail. There is no universal expiry interval.
+- Keep reconfirmation focused on the practices needed for the current question. Summaries can display dated reports and missing confirmation without interviewing the user. Continue research that does not depend on the answer; keep any dependent conclusion conditional.
+- Only advance a confirmation date for what the user actually confirmed. Editing a page, reviewing research, buying a refill, or confirming another practice must not refresh it. Status-only confirmation does not reconfirm frequency, dose, or continuous use.
 - Record a user's reported changes directly. Their instruction is sufficient to update the files; no repetitive confirmation step is needed.
 - Research may create a decision record; it must not silently activate a recommendation. If the user explicitly adopts a proposal, follow the update workflow.
 - Start with what the user provides. Do not populate health history from unrelated chats or assume Bryan Johnson's practices belong to this protocol.
@@ -35,6 +40,6 @@ Use one assistant with these repository workflows:
 
 Lead a review with the conclusion, then explain why it matters relative to the current setup. Name uncertainty and the condition that would change the conclusion. Report saved paths and current-state changes concisely.
 
-Keep the canonical file human-readable. Extend its format only when a real task needs more information. Avoid separate shadow copies, speculative agents, compulsory scoring formulas, and repeated full-history loading.
+Keep category pages human-readable, with one heading and a short practice card per item. Keep the overview as navigation and shared context rather than a duplicate master table. Use `.agents/templates/practice.md` when adding a card. Extend the format only when a real task needs more information. Avoid separate shadow copies, speculative agents, compulsory scoring formulas, and repeated full-history loading.
 
-Before finishing an edit, check that local links resolve, IDs and statuses agree with the workflow, and the protocol does not contradict the decision just recorded. Use the actual current date in the user's timezone; if the timezone is unknown and the date matters, clarify it. Only commit or publish when authorized by the user's task or existing session instructions.
+Before finishing an edit, check that category links resolve, every practice ID appears in exactly one canonical card, dates describe actual reports rather than inferred use, and the protocol does not contradict the decision just recorded. Use the actual current date in the user's timezone; if the timezone is unknown and the date matters, clarify it. Only commit or publish when authorized by the user's task or existing session instructions.
