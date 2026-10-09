@@ -9,9 +9,9 @@ Supersedes: link and the objective/context being superseded, or none.
 
 ## Conclusion
 
-Keep current setup | consider change | unresolved | recorded user change.
+Keep current setup | consider change | unresolved | qualified finding (no action decision) | recorded user change.
 
-State the practical recommendation or reported change in plain language.
+State the practical recommendation, qualified finding, or reported change in plain language.
 
 For a review, state the conclusion for the assessed objective. If multiple outcomes are reviewed, give a separate conclusion and its uncertainty for each; do not generalize one supported benefit to the whole product.
 
@@ -20,6 +20,7 @@ For a review, state the conclusion for the assessed objective. If multiple outco
 - Input: what the user supplied or asked; distinguish the external claim from fact.
 - Baseline: the relevant practice and goal, last status confirmation, dated frequency/amount when material, and what remains unknown about current or continuous use.
 - Evidence or user report: which specific outcome the evidence supports, important limitations, and whether it concerns the actual product, an ingredient, a related regimen, or a surrogate/mechanism. Distinguish direct support from inference and unknowns.
+- For research, material premise check: what the conclusion depends on, what the evidence actually establishes, relevant counterevidence, and any remaining inference that could change the action or confidence. Omit for a pure reported-state update.
 - Practical fit: compatibility, incremental benefit, price, availability, effort, and preferences where relevant.
 
 ## Sources
@@ -33,6 +34,8 @@ For an evidence synthesis, note its relevance, quality, and search cutoff when a
 State exactly which category card or overview context changed, or “No protocol-state change; this is a review.” Identify the confirmation fields the user actually refreshed. Separate dated reports from inferred current use and suggestions. Link any prior decision being superseded.
 
 For a product or regimen replacement, record the before-and-after product/use context and the old dated reports needed to interpret it. List the disposition of each affected evidence link: Applicable (why its scope still fits), Needs reassessment (what is uncertain), or Historical (which previous setup it concerns). Identify which usage details or product-specific observations/preferences were retained, moved into history, or left unknown for the replacement. Preserve research review dates; a replacement does not itself supersede the old scientific conclusion.
+
+For a material correction, list the affected prior/dependent conclusions and their disposition (changed, retained with independent support, or Needs reassessment), the records/cards checked, and any unresolved scope. Add dated notices linking back here on affected old records. Follow the [correction procedure](../.agents/workflows/review.md#correct-a-material-premise-and-its-consequences). Omit this detail for unrelated updates.
 
 ## Revisit when
 

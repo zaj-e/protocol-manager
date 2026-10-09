@@ -1,6 +1,6 @@
 # North Star
 
-Version: 3. Founded: 2026-10-07. Basis: the user's founding conversation, subsequent feedback, and recovered earlier proposal.
+Version: 4. Founded: 2026-10-07. Basis: the user's founding conversation, subsequent feedback, and recovered earlier proposal.
 
 Source wording: [2026 founding messages and early feedback](founding-messages.md) and the [recovered earlier proposal](earlier-proposal.md). [origin.md](origin.md) provides a concise synthesis. These archives preserve what was said; the current charter describes the direction now.
 
@@ -22,6 +22,7 @@ Success is a suitable, sustainable protocol that is easy to understand and maint
 - Make the protocol easy for the user to browse by category as it grows. Human readability is part of its value.
 - Support tools with multiple purposes. Tie each evidence conclusion to a specified objective/outcome and use context, rather than treating a product as globally validated.
 - Allow selected conclusions to be challenged and reassessed on demand as evidence and needs change. Keep the evidence review date separate from confirmation of actual use.
+- Reduce the user's scientific fact-checking burden: independently examine consequential premises, distinguish established findings from inference, and reconsider dependent advice when reasoning fails. Useful recommendations should communicate material uncertainty without requiring zero risk or perfect knowledge.
 
 ## Foundation commitments
 
@@ -30,6 +31,8 @@ One assistant, a readable overview linking canonical category pages, two task wo
 Practice cards can list several purposes and link evidence decisions by objective. Use the existing review workflow for selective knowledge updates; an explicit reassessment checks earlier reasoning rather than automatically trusting it. Markdown and scoped links express these relationships in the foundation; introduce a different storage system only when actual retrieval or consistency problems warrant it.
 
 The user's personal health goals, exact products, budget, and shopping options still need to be provided. Founding the project does not supply those facts.
+
+Durable research methods live in the assistant instructions and workflows. Scoped findings, including knowledge with no adopted practice, live in dated review records; action choices record their evidence and practical reasons. Protocol state remains the user's dated reports. These are distinct roles within the existing Markdown structure, not separate knowledge systems.
 
 ## Learn through use
 
@@ -60,3 +63,4 @@ This charter is editable. When experience or the user's instruction changes the 
 - 2026-10-07 — V1: establish the foundation from the user's stated research burden, practical constraints, preference differences, and request for an adaptable project.
 - 2026-10-07 — V2: address the user's concerns about drift from actual behavior and readability at scale. Make status confirmations explicit, reconfirm relevant older reports on demand, and replace the master practices table with category pages and short practice cards. Preserve the original purpose and avoid daily interviews or a separate database.
 - 2026-10-08 — V3: incorporate the [recovered earlier proposal](earlier-proposal.md). Explicitly support multiple purposes, objective-specific evidence, systematic reviews/meta-analyses as appropriate sources, and selective reassessment through the existing workflow. Preserve the current emphasis on decision support and practical fit; the earlier inventory framing does not override it.
+- 2026-10-08 — V4: operationalize premise checking and correction of dependent advice, and explicitly allow standalone knowledge findings in existing review records. Preserve actionable guidance and small scope; add behavioral evaluation cases without claiming prompt instructions guarantee reliable reasoning.

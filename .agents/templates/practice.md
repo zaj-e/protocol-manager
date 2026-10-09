@@ -20,6 +20,8 @@ After a product or regimen change, label retained links **Applicable**, **Needs 
 
 Add short optional paragraphs for user-reported observations, relevant clinician instructions, explicit start/stop dates, or a reported period of continuous use when useful. Do not manufacture these details. Record the source/report date for an observation. Missing history is unknown, not evidence of adherence or non-use.
 
+If a material evidence error is found, follow the [correction procedure](../workflows/review.md#correct-a-material-premise-and-its-consequences). Refresh the affected evidence link or mark it Needs reassessment even when the product is unchanged; preserve reported-use fields and unrelated objectives.
+
 Give every practice a unique stable `P` ID across all categories. Keep stopped and paused cards with their history. Use ordinary headings so Markdown viewers provide navigation; add a short local jump list if a category becomes long. Cross-link the canonical card from other categories instead of copying its fields.
 
 A category is navigation, not a restriction on purposes. A tool used in one regimen for several objectives can stay in one card. Distinct uses with different regimens can have separate practice cards referring to the same tool; their evidence conclusions remain scoped to each use. No separate tool registry is required in this iteration.
