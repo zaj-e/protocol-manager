@@ -39,7 +39,7 @@ The canonical protocol consists of `state/protocol.md` for shared context and it
 
 A tool can serve several purposes. Reviews assess a specific outcome and use context, and cards link applicable evidence by objective. The latest state update is kept separate from those evidence links. Ask “update knowledge about this practice for this goal” to reassess selected conclusions with the existing review workflow; the review date does not confirm that you still use it.
 
-You can also ask a knowledge question without adopting anything. Save its qualified finding as a review in `decisions/`, with no related practice required. Reviews check consequential premises and distinguish measured outcomes from inference. A material correction reconsiders dependent advice and updates evidence links while preserving reported use and original history.
+Reviews check consequential premises and distinguish measured outcomes from inference. A material correction reconsiders dependent advice and updates evidence links while preserving reported use and original history.
 
 The repository is initialized on `main` with a foundation commit. Later edits can be inspected with `git diff`; save checkpoints with `git add` and `git commit` when useful. Assistant state updates do not require a commit to become canonical. The assistant reports modified paths and meaningful changes after each update.
 

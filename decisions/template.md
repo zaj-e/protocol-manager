@@ -9,9 +9,9 @@ Supersedes: link and the objective/context being superseded, or none.
 
 ## Conclusion
 
-Keep current setup | consider change | unresolved | qualified finding (no action decision) | recorded user change.
+Keep current setup | consider change | unresolved | recorded user change.
 
-State the practical recommendation, qualified finding, or reported change in plain language.
+State the practical recommendation or reported change in plain language.
 
 For a review, state the conclusion for the assessed objective. If multiple outcomes are reviewed, give a separate conclusion and its uncertainty for each; do not generalize one supported benefit to the whole product.
 
