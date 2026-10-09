@@ -29,6 +29,7 @@ You can edit the Markdown files yourself. User edits are authoritative; the assi
 | [state/categories/](state/categories/) | Canonical practice cards grouped by area |
 | [.agents/templates/practice.md](.agents/templates/practice.md) | Small format for a dated practice record |
 | [decisions/](decisions/README.md) | Dated reasoning, changes, and conditions for reconsideration |
+| [evaluations/](evaluations/README.md) | Scientific reasoning cases and honestly scoped execution records |
 
 `.agents/workflows/` contains repository instructions loaded through `AGENTS.md`. These are not automatically installed personal ChatGPT skills, separate agents, or an autonomous agent fleet.
 
@@ -37,6 +38,8 @@ You can edit the Markdown files yourself. User edits are authoritative; the assi
 The canonical protocol consists of `state/protocol.md` for shared context and its linked category pages for practices. Each practice appears in one category only. Decision records explain its history. A recommendation stays in a decision record until you adopt it. Unknown information remains explicitly unknown.
 
 A tool can serve several purposes. Reviews assess a specific outcome and use context, and cards link applicable evidence by objective. The latest state update is kept separate from those evidence links. Ask “update knowledge about this practice for this goal” to reassess selected conclusions with the existing review workflow; the review date does not confirm that you still use it.
+
+Reviews check consequential premises and distinguish measured outcomes from inference. A material correction reconsiders dependent advice and updates evidence links while preserving reported use and original history.
 
 The repository is initialized on `main` with a foundation commit. Later edits can be inspected with `git diff`; save checkpoints with `git add` and `git commit` when useful. Assistant state updates do not require a commit to become canonical. The assistant reports modified paths and meaningful changes after each update.
 
@@ -58,4 +61,4 @@ Further splitting a large category, generating a dashboard, adding a mutation CL
 
 ## Validation scope
 
-The foundation was checked for local Markdown links, agreement between the state format and workflows, and clean Git packaging. The category revision was also checked for link coverage, preservation of the unpopulated baseline, and consistency of the dated-report rules. These are structural checks. Live research and independent behavioral evaluation of the assistant have not been performed. Instructions guide an existing AI; they do not enforce its behavior like application code.
+The foundation and category revision received structural checks, not independent behavioral validation. The [2026-10-08 author exercise](evaluations/2026-10-08-author-exercise.md) adds targeted source checks, same-session reasoning demonstrations and an executed fictional correction exercise with file-preservation assertions. No independent fresh-session model test or before/after comparison was run. [Regression cases](evaluations/README.md) document how to perform that next. Instructions guide an existing AI; they do not enforce its behavior like application code or guarantee error-free reasoning.
