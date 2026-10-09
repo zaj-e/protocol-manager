@@ -2,6 +2,8 @@
 
 Timezone: America/Lima. Base: `c8f37a965ca8814797e05d12901ce14f227165b3`. The exercise used the initial PR implementation, preserved in commit `5f3a7c37851611e4e98109a37290723c81804eb6`, before the 2026-10-09 scope reduction. No new behavioral run accompanied that revision.
 
+2026-10-09 (America/Bogota) — Layout migration note: this is preserved evidence of an earlier execution, not an instruction to recreate its retired numbered-record layout. The original fixture IDs and field names below describe what was actually exercised then. Current fixtures and workflows use topic research, practice history, and canonical reactions; see [the current cases](README.md). This migration did not rerun that behavioral exercise.
+
 ## Actual work
 
 - Checked the scientific sources listed in [the cases](README.md).

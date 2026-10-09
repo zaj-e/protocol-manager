@@ -1,8 +1,8 @@
 # My life protocol
 
-Overview edited: 2026-10-08. This date does not confirm any practice.
+Overview edited: 2026-10-09. This date does not confirm any practice.
 
-Start here to navigate the protocol. This file owns shared goals and constraints; the linked category pages own the practice records. The baseline has not yet been recorded, which does not mean the user has no routine.
+Start here to navigate the protocol. This file owns shared goals and constraints; the linked category pages own practices, observations, and meaningful product/setup history. The first partial baseline was reported on 2026-10-09 in Skin. Other routines have not yet been recorded; that does not establish their absence.
 
 ## Browse by category
 
@@ -16,13 +16,20 @@ Start here to navigate the protocol. This file owns shared goals and constraints
 
 These are navigation categories, not a recommended routine. Add a category when actual use requires it. Keep each practice on exactly one category page; cross-link it from related areas rather than copying it.
 
+## Personal reactions and research
+
+- [Marcelo's reported reactions](reactions.md) — the canonical home for reported adverse experiences, including products no longer used. Consult before personalized product advice.
+- [Research by topic](../research/README.md) — evidence, conclusions, sources, and meaningful revisions grouped by subject and objective.
+
+Cards link to reaction entries instead of copying them. Routine reports update the relevant card or shared context; they do not create separate diary files.
+
 ## Tools, purposes, and evidence
 
 A tool is a product, device, or other resource used within a practice. A practice can serve several objectives. Categories organize navigation; they do not limit what a tool can be used for.
 
-Keep the user's purposes on the practice card. Link research under Evidence by objective, with a separate dated review for the assessed outcome and use context. Support for one benefit does not validate every claim about the product. Keep the latest state-decision link separate from research links, so recording a refill or reconfirming use does not hide the evidence behind a choice.
+Keep the user's purposes and dated personal reports on the practice card. Link research under Evidence by objective to the matching section of a topic page, with its assessed outcome, use context, and review date. Support for one benefit does not validate every claim about the product. Personal history and research remain distinct, so recording a refill or reconfirming use does not replace the evidence behind a choice.
 
-“Update knowledge” means reassessing selected evidence decisions on request. An evidence review date is independent of the date the user last confirmed using the tool.
+“Update knowledge” means reassessing selected topic/outcome sections on request. Keep current conclusions and meaningful prior reasoning in the same research page. An evidence review date is independent of the date the user last confirmed using the tool.
 
 ## What the state can establish
 
@@ -32,7 +39,7 @@ The assistant updates reports when the user shares a change or confirms relevant
 
 ## Goals
 
-No personal health or care goals have been recorded yet.
+The first reported care purposes are feeling fresh after face washing and addressing bothersome white buildup on the nose; see the dated reports on [Skin](categories/skin.md). Broader personal health or care goals have not yet been provided.
 
 ## Constraints and preferences
 
@@ -40,7 +47,7 @@ No personal health or care goals have been recorded yet.
 | --- | --- |
 | Approach | Start small; minimize ongoing research and maintenance effort |
 | Choosing alternatives | Consider incremental benefit, compatibility, price, availability, and effort |
-| Existing choices | Some are strongly preferred; others were arbitrary. Item-specific reasons are not recorded yet |
+| Existing choices | Some are strongly preferred; others were arbitrary. See category cards for reported motivations; preference strength and original choice reasons for the first cleansers remain unknown |
 | Budget | Not yet provided; do not assume a spending limit |
 | Shopping location and stores | Not yet confirmed |
 | Relevant conditions, reactions, or clinician instructions | Not yet provided; unknown does not mean absent |
@@ -54,6 +61,6 @@ No personal health or care goals have been recorded yet.
 
 Use stable IDs such as `P001`, `P002`, and so on across all categories. Never reuse an ID. Use the [practice-card template](../.agents/templates/practice.md) when recording a practice. Keep unknown fields explicitly unknown and optional details limited to what helps a decision.
 
-A candidate that is merely being considered belongs in a [decision record](../decisions/README.md), not in the category pages. Owning a product alone does not establish active use.
+A candidate that is merely being considered belongs in relevant [topic research](../research/README.md), not in the category pages. Owning a product alone does not establish active use.
 
-Two confirmations separated by months do not establish continuous use between them. Record duration or continuity only if the user explicitly reports it. Dates and measurements must come from actual reports or observations; daily adherence is not inferred. Research findings and their sources belong in decision records.
+Two confirmations separated by months do not establish continuous use between them. Record duration or continuity only if the user explicitly reports it. Dates and measurements must come from actual reports or observations; daily adherence is not inferred. Research findings and their sources belong on topic pages. Reported reactions remain dated personal reports with their original product context; ingredient overlap alone does not establish their cause.
