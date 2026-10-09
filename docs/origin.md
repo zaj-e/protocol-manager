@@ -31,3 +31,7 @@ The user also asked that the intent remain adaptable: future work should remembe
 ## Recovered earlier proposal
 
 On 2026-10-08 the user supplied an [older proposal](earlier-proposal.md), described as roughly a year and five months old. Its multiple-purpose tools and objective-specific evidence sharpen the design. Preserve it as historical input; the current North Star determines present priorities, and the scientific examples in the older message remain unverified illustrations.
+
+## Subsequent direction: organize memory by subject
+
+On 2026-10-09 the user questioned whether growing chronological entries would make important history hard to find, especially when neither the user nor assistant remembers a past adverse reaction. The user proposed one predictable file for personal reactions and explicitly requested a clean migration without data loss. The current layout keeps practice history on category cards, reaction reports in one canonical file, and research by topic/objective. This revises storage and retrieval while preserving the original aim of reducing research and remembering why a choice made sense.

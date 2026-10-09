@@ -9,8 +9,8 @@ This first iteration runs through a repository-aware assistant such as Codex. Th
 1. Open this folder in your repository-aware assistant. It should read [AGENTS.md](AGENTS.md). If your tool does not automatically load that file, explicitly ask it to read and follow it.
 2. Give it one existing routine or a few products. For example: “Record these as my current skincare routine. I like this moisturizer; the cleanser was an arbitrary purchase.”
 3. Open [state/protocol.md](state/protocol.md) and choose a category to see what it recorded. Category pages use readable practice sections. These same Markdown files are readable in an editor, a Git hosting service, or any Markdown viewer.
-4. Send a claim or question: “This video recommends this product. Would changing from what I use be worthwhile for me?” The assistant follows the review workflow and saves a decision record.
-5. Report a real change: “I switched to it yesterday,” or “I stopped because it irritated my skin.” The assistant updates the protocol and records what changed.
+4. Send a claim or question: “This video recommends this product. Would changing from what I use be worthwhile for me?” The assistant checks reported reactions and relevant history, follows the review workflow, and creates or updates research by topic and objective.
+5. Report a real change: “I switched to it yesterday,” or “I stopped because it irritated my skin.” The assistant updates the practice, preserves meaningful prior context there, and records adverse reaction details in the canonical reactions file.
 
 You can edit the Markdown files yourself. User edits are authoritative; the assistant must read the latest file rather than overwrite it from conversation memory.
 
@@ -28,22 +28,26 @@ You can edit the Markdown files yourself. User edits are authoritative; the assi
 | [state/protocol.md](state/protocol.md) | Shared context and category navigation |
 | [state/categories/](state/categories/) | Canonical practice cards grouped by area |
 | [.agents/templates/practice.md](.agents/templates/practice.md) | Small format for a dated practice record |
-| [decisions/](decisions/README.md) | Dated reasoning, changes, and conditions for reconsideration |
+| [state/reactions.md](state/reactions.md) | Marcelo's reported adverse experiences, including stopped/replaced products |
+| [research/](research/README.md) | Evidence and current conclusions by topic/objective, with meaningful prior revisions |
+| [.agents/templates/research.md](.agents/templates/research.md) | Small format for topic research and source-backed reasoning |
 | [evaluations/](evaluations/README.md) | Scientific reasoning cases and honestly scoped execution records |
 
 `.agents/workflows/` contains repository instructions loaded through `AGENTS.md`. These are not automatically installed personal ChatGPT skills, separate agents, or an autonomous agent fleet.
 
 ## Persistence and visibility
 
-The canonical protocol consists of `state/protocol.md` for shared context and its linked category pages for practices. Each practice appears in one category only. Decision records explain its history. A recommendation stays in a decision record until you adopt it. Unknown information remains explicitly unknown.
+The canonical protocol consists of `state/protocol.md` for shared context, category pages for practices and their meaningful history, and `state/reactions.md` for reported adverse experiences. Each practice has one canonical card; reaction details have one canonical home, linked from cards. A recommendation stays in topic research until you report adoption. Unknown information remains explicitly unknown.
 
-A tool can serve several purposes. Reviews assess a specific outcome and use context, and cards link applicable evidence by objective. The latest state update is kept separate from those evidence links. Ask “update knowledge about this practice for this goal” to reassess selected conclusions with the existing review workflow; the review date does not confirm that you still use it.
+A tool can serve several purposes. Topic pages assess specific outcomes and use contexts, and cards link applicable research sections by objective. The latest dated personal report stays separate from research. Ask “update knowledge about this practice for this goal” to reassess selected conclusions with the existing review workflow; the review date does not confirm use. Meaningful prior conclusions and sources remain in clearly labeled revisions on the same topic page. Routine reports and unchanged confirmations do not generate separate event files.
 
 Reviews check consequential premises and distinguish measured outcomes from inference. A material correction reconsiders dependent advice and updates evidence links while preserving reported use and original history.
 
+Before personalized product advice, the assistant reads the reactions file and searches relevant past setups and topic research, including unlinked candidate reviews. Unknown reaction causes still matter; a shared ingredient does not prove causation. “No relevant report found” does not mean no past reaction occurred. These checks reduce dependence on remembering which past event to ask about; their reliability still requires behavioral evaluation.
+
 The repository is initialized on `main` with a foundation commit. Later edits can be inspected with `git diff`; save checkpoints with `git add` and `git commit` when useful. Assistant state updates do not require a commit to become canonical. The assistant reports modified paths and meaningful changes after each update.
 
-The source repository is [zaj-e/protocol-manager](https://github.com/zaj-e/protocol-manager), on `main`. The repository is public; personal state and decision records committed and pushed here will also be public. No API keys or external services are required. Online research depends on the assistant's browsing capabilities.
+The source repository is [zaj-e/protocol-manager](https://github.com/zaj-e/protocol-manager), on `main`. The repository is public; personal state, reactions, and research committed and pushed here will also be public. No API keys or external services are required. Online research depends on the assistant's browsing capabilities.
 
 ## Staying connected to reality
 

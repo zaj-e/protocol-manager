@@ -1,6 +1,6 @@
 # North Star
 
-Version: 5. Founded: 2026-10-07. Basis: the user's founding conversation, subsequent feedback, and recovered earlier proposal.
+Version: 6. Founded: 2026-10-07. Basis: the user's founding conversation, subsequent feedback, and recovered earlier proposal.
 
 Source wording: [2026 founding messages and early feedback](founding-messages.md) and the [recovered earlier proposal](earlier-proposal.md). [origin.md](origin.md) provides a concise synthesis. These archives preserve what was said; the current charter describes the direction now.
 
@@ -26,9 +26,11 @@ Success is a suitable, sustainable protocol that is easy to understand and maint
 
 ## Foundation commitments
 
-One assistant, a readable overview linking canonical category pages, two task workflows, and dated decision records. Review on request. Preserve context, reasoning, and the boundary between a suggestion and an adopted practice. Represent practice state as last reported status with confirmation dates; never assume continuous use from elapsed time.
+One assistant, a readable overview linking canonical category pages, a single file for reported adverse reactions, topic research pages, and two task workflows. Review on request. Keep personal observations and meaningful prior product/setup context with each practice; keep reaction details in `state/reactions.md`, linked from cards. Represent practice state as last reported status with confirmation dates; never assume continuous use from elapsed time. A routine report or unchanged confirmation does not require a separate event record.
 
-Practice cards can list several purposes and link evidence decisions by objective. Use the existing review workflow for selective knowledge updates; an explicit reassessment checks earlier reasoning rather than automatically trusting it. Markdown and scoped links express these relationships in the foundation; introduce a different storage system only when actual retrieval or consistency problems warrant it.
+Practice cards can list several purposes and link research by objective. Reuse subject files in `research/`, with current conclusions and clearly labeled meaningful prior revisions on the same page. Preserve sources, use context, and why a conclusion changed without generating a chronological file per review. Selective reassessment checks earlier reasoning rather than automatically trusting it; a proposal remains separate from adopted use.
+
+Important personal history must be discoverable before the user or assistant remembers to ask for it. Personalized product reviews consult the canonical reactions file and search relevant past setups and topic research, including stopped products and unknown reaction causes. Finding no recorded match does not establish no prior reaction. Verify retrieval with isolated fictional cases; structural checks and workflow instructions alone do not establish behavioral reliability. Markdown and scoped links support this foundation without a database or duplicate master history.
 
 The user's personal health goals, exact products, budget, and shopping options still need to be provided. Founding the project does not supply those facts.
 
@@ -63,3 +65,4 @@ This charter is editable. When experience or the user's instruction changes the 
 - 2026-10-08 — V3: incorporate the [recovered earlier proposal](earlier-proposal.md). Explicitly support multiple purposes, objective-specific evidence, systematic reviews/meta-analyses as appropriate sources, and selective reassessment through the existing workflow. Preserve the current emphasis on decision support and practical fit; the earlier inventory framing does not override it.
 - 2026-10-08 — V4: operationalize premise checking and correction of dependent advice, and explicitly allow standalone knowledge findings in existing review records. Preserve actionable guidance and small scope; add behavioral evaluation cases without claiming prompt instructions guarantee reliable reasoning.
 - 2026-10-09 — V5: narrow the proposed V4 change to premise checking and correction handling; defer standalone-finding format changes. Independent behavioral benefit remains unverified.
+- 2026-10-09 — V6: at the user's request, replace numbered chronological records with meaningful history on practice cards, one canonical reactions file, and research organized by topic/objective. The user identified growing diary entries and silent retrieval misses as risks. Preserve all recorded baseline details, sources, dates, and meaningful research revisions; remove the retired event-record files and templates. Keep the original decision-support purpose and make history checks explicit before personalized product advice. No independent retrieval-reliability claim is made by this migration.
